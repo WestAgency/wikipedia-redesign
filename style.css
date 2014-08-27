@@ -1,0 +1,174 @@
+/* ==========================================================================
+   Wikipedia Redesign by West
+   ========================================================================== */
+
+/**
+ * Use a plugin like Stylebot for use / previewing / development: https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en
+ */
+
+@import   url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic,900italic);
+
+#content   {
+            max-width:   1100px;
+            border:   none;
+}
+
+h1   {
+            font-size:   100px;
+            line-height:   1em;
+            padding-bottom:   30px;
+            font-family:   'Playfair   Display',   serif;
+            font-weight:   bold;
+            border-color:   #e3e3e3;
+}
+
+.mw-body-content   {
+            font-size:   1.2em;
+            line-height:   1.8em;
+            font-family:   serif;
+}
+
+.mw-body-content   a   {
+            color:   #000;
+            border-bottom:   1px   solid   rgba(0,   0,   0,   0.05);
+            -webkit-transition:   all   200ms   ease;
+            -moz-transition:   all   200ms   ease;
+            -ms-transition:   all   200ms   ease;
+            -o-transition:   all   200ms   ease;
+            transition:   all   200ms   ease;
+}
+
+.mw-body-content   a:hover   {
+            color:   #000;
+            border-bottom:   1px   solid   rgba(0,   0,   0,   0.2);
+            text-decoration:   none;
+            -webkit-transition:   all   200ms   ease;
+            -moz-transition:   all   200ms   ease;
+            -ms-transition:   all   200ms   ease;
+            -o-transition:   all   200ms   ease;
+            transition:   all   200ms   ease;
+}
+
+#toc,   .toc   {
+            float:   left;
+            margin:   15px   20px   0px   0px;
+}
+
+#mw-navigation   {
+            opacity:   0.05;
+            -webkit-transition:   all   200ms   ease;
+            -moz-transition:   all   200ms   ease;
+            -ms-transition:   all   200ms   ease;
+            -o-transition:   all   200ms   ease;
+            transition:   all   200ms   ease;
+}
+
+#toc,   .toc,   .mw-warning,   .infobox   {
+            border:   none;
+            padding:   20px;
+            max-width:   280px;
+}
+
+h2   {
+            border-bottom:   1px   solid   #eaeaea;
+            padding-bottom:   10px;
+}
+
+#mw-navigation:hover   {
+            opacity:   1;
+            -webkit-transition:   all   200ms   ease;
+            -moz-transition:   all   200ms   ease;
+            -ms-transition:   all   200ms   ease;
+            -o-transition:   all   200ms   ease;
+            transition:   all   200ms   ease;
+}
+
+#mw-navigation   a   {
+            color:   #000;
+}
+
+div.vectorTabs   ul   li,   div.vectorTabs   span,   div.vectorTabs   ul,   div.vectorTabs   {
+            background:   none;
+            border:   none;
+}
+
+.infobox   th   {
+            background:   none;
+            padding-bottom:   5px;
+            font-family:   'Playfair   Display',   serif;
+            font-weight:   bold;
+            border-color:   #e3e3e3;
+}
+
+.infobox   img   {
+            margin:   7px   0   12px   0;
+}
+
+.infobox   {
+            max-width:   300px;
+}
+
+.infobox   div   {
+            margin-bottom:   20px;
+}
+
+#content   .external   {
+            background:   none;
+}
+
+#content   .external:after   {
+            content:   "?";
+            font-size:   10px;
+            margin-left:   5px;
+            margin-right:   0;
+            opacity:   0.2;
+}
+
+/*   dark   background   */
+
+body,   #mw-page-base   {
+            background:   #fff;
+}
+
+h1,   h2,   h3,   h4,   h5,   h6   {
+            font-family:   'Playfair   Display',   serif;
+            font-weight:   bold;
+}
+
+table.wikitable   {
+            background:   #fff;
+            border:   1px   solid   red;
+}
+
+table.wikitable   th   {
+            border-right:   1px   solid   #fff;
+            border-left:   1px   solid   #fff;
+            border-top:   1px   solid   #fff;
+            border-bottom:   1px   solid   #eaeaea;
+}
+
+table.wikitable   tr   td   {
+            border:   1px   solid   #eaeaea;
+}
+
+table.wikitable   >   tr   >   th,   table.wikitable   >   *   >   tr   >   th   {
+            background:   #fff;
+}
+
+#toc   {
+            max-width:   300px;
+}
+
+html   .thumbimage   {
+            border:   none;
+            margin-bottom:   10px;
+}
+
+div.thumbinner   {
+            border:   none;
+            padding:   10px;
+}
+
+div.tleft   {
+            margin:   1.5em   1.4em   0.5em   0;
+}
